@@ -77,7 +77,7 @@ def user_interaction():
 
         elif choice == "3":
             # Найти вакансии по ключевому слову в описании
-            keyword = input("Введите ключевое слово для поиска в описании: ")
+            keyword = input("Введите ключевое слово для поиска в описании:  ")
             vacancies = json_saver.get_vacancies()
             filtered_vacancies = []
             for v in vacancies:

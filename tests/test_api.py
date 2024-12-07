@@ -11,7 +11,7 @@ class TestHeadHunterAPI(unittest.TestCase):
 
     @patch('src.api.requests.get')
     def test_successful_response(self, mock_get):
-        """Проверяет корректную обработку успешного ответа API hh.ru."""
+        """Проверяет корректную обработку успешного ответа API hh.ru. """
         mock_get.return_value.status_code = 200
         mock_get.return_value.json.return_value = {
             'items': [
