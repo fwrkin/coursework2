@@ -17,7 +17,7 @@ class HeadHunterAPI(JobAPI):
     BASE_URL = 'https://api.hh.ru/vacancies'
 
     def get_vacancies(self, query):
-        """Получает вакансии с hh.ru по указанному запросу."""
+        """Получает вакансии с hh.ru по указанному запросу. """
         params = {
             'text': query,  # Ключевое слово для поиска
             'area': 113,  # Код региона (113 — Россия)

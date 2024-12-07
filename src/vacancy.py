@@ -8,7 +8,7 @@ class Vacancy:
         self.description = description
 
     def to_dict(self):
-        """Возвращает представление объекта в виде словаря."""
+        """Возвращает представление объекта в виде словаря ."""
         return {
             'name': self.name,
             'url': self.url,
